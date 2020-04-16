@@ -6,6 +6,9 @@
   align-items: center;
   margin: 1%;
 }
+.App h1{
+  margin: 1%;
+}
 .App .tab-content .active{
   display: flex;
   flex-direction: column;
