@@ -1,17 +1,17 @@
 import React from 'react';
-
+import {CardSubtitle} from 'reactstrap';
 function ImgInfo(props){
     console.log(props)
     return (
-        <div>
-            <p>
-                Photograph taken by {props.photographer}
-            </p>
-            <span />
-            <p>
-                Date: {props.date}
-            </p>
-        </div>
+        <CardSubtitle tag = 'h6' className = 'text-warning'>
+            
+            Photograph taken by {props.photographer},
+        
+            <span>{` `}</span>
+            
+            Date: {props.date}
+            
+        </CardSubtitle>
     )
 }
 export default ImgInfo;

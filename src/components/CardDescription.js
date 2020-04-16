@@ -1,11 +1,11 @@
 import React from 'react';
-
+import {CardText} from 'reactstrap';
 function CardDescription(props){
     console.log(props)
     return (
-        <p>
+        <CardText>
             {props.description}
-        </p>
+        </CardText>
     )
 }
 export default CardDescription;

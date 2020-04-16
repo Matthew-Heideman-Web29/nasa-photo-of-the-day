@@ -1,11 +1,12 @@
 import React from 'react';
+import {CardTitle as Title} from 'reactstrap';
 
 function CardTitle(props){
     console.log(props)
     return (
-        <h3>
+        <Title tag='h4' className = 'text-warning'>
             {props.title}
-        </h3>
+        </Title>
     )
 }
 export default CardTitle;
