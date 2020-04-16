@@ -8,7 +8,7 @@ import {Col, Card, CardBody, CardHeader} from 'reactstrap';
 function NasaCardContainer(props){
     console.log(props)
     return (
-        <Col sm = '10'>
+        <Col sm = '8'>
             <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                 <NasaPhoto imgUrl = {props.data.url} />
                 <CardHeader>
