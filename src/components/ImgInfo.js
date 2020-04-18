@@ -5,11 +5,7 @@ function ImgInfo(props){
     return (
         <CardSubtitle tag = 'h6' className = 'text-warning'>
             
-            Photograph taken by {props.photographer},
-        
-            <span>{` `}</span>
-            
-            Date: {props.date}
+            Photograph taken by {props.photographer}, Date: {props.date}
             
         </CardSubtitle>
     )
